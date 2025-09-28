@@ -57,15 +57,14 @@ Cada usuario cuenta con los siguientes atributos:
 
 1. Clonar el repositorio  
    ```bash
-   git clone <ENLACE_DE_TU_REPOSITORIO>
-   cd <nombre_proyecto>
+   git clone https://github.com/LuisfrankJyG/nodejs.git
+   cd nodejs
+   
 Instalar dependencias
 
 npm install
 Configurar las variables de entorno en un archivo .env
 
-env
-Copiar código
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=tu_password
@@ -74,14 +73,10 @@ DB_DIALECT=mysql
 PORT=3000
 Ejecutar migraciones y seeders (usuarios demo)
 
-bash
-Copiar código
 npm run db:migrate
 npm run db:seed
 Iniciar servidor
 
-bash
-Copiar código
 npm start
 El servidor quedará corriendo en:
 👉 http://localhost:3000
@@ -97,8 +92,6 @@ GET /api/usuario/:id
 POST /api/usuario
 Body JSON:
 
-json
-Copiar código
 {
   "nombre": "Juan Pérez",
   "email": "juan@ejemplo.com",
@@ -109,8 +102,6 @@ Copiar código
 PUT /api/usuario/:id
 Body JSON:
 
-json
-Copiar código
 {
   "nombre": "Juan Actualizado",
   "password": "nuevaClave123",
