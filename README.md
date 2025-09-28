@@ -114,7 +114,7 @@ DELETE /api/usuario/:id
 Todas las pruebas de la API se realizaron utilizando Insomnia.
 📎 Aquí puedes ver el archivo PDF con capturas de las pruebas:
 
-👉 [CRUD Insomnia - Pruebas](https://senatipe-my.sharepoint.com/personal/1511007_senati_pe/Documents/CRUD%20Insomnia.pdf)
+👉 [CRUD Insomnia - Pruebas](https://senatipe-my.sharepoint.com/:b:/g/personal/1511007_senati_pe/EVRuFI5NQttEnTrfvoLAl90B2LMFsayFdz59uDlY6Ff78g?e=FeYTem)
 
 ✨ Autor -> Luis Solano
 Proyecto desarrollado como parte de la práctica académica en Senati.
